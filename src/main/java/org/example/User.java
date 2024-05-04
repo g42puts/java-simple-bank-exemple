@@ -23,6 +23,10 @@ public class User {
         return this.cpf;
     }
 
+    public String getFullName() {
+        return String.format("%s %s", name, lastName);
+    }
+
     public void setName(String name) {
         String firstName = this.name;
 
@@ -51,9 +55,5 @@ public class User {
 
     private void _setLastName(String name) {
         this.lastName = lastName;
-    }
-
-    public String getFullName() {
-        return String.format("%s %s", name, lastName);
     }
 }
