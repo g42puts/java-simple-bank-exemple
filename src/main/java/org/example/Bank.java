@@ -25,8 +25,4 @@ public class Bank {
             System.out.println("Saldo insuficiente");
         }
     }
-
-    public void exit() {
-        System.out.println("Obrigado por utilizar nossos serviços. Tenha um bom dia!");
-    }
 }
